@@ -1,0 +1,99 @@
+// Graph 20230925-211437
+digraph {
+	node [style=filled]
+	node [fillcolor=purple fontcolor=yellow shape=oval style=filled]
+	node [fillcolor=purple fontcolor=yellow shape=oval style=filled]
+	node [fillcolor=cyan fontcolor=black shape=square style=filled]
+	nodo0 [label=0.33]
+	nodo1 [label=8.06]
+	nodo2 [label="resta\n-8"]
+	nodo2 -> nodo0
+	nodo2 -> nodo1
+	nodo3 [label="coseno\n0.12"]
+	nodo3 -> nodo2
+	nodo4 [label="tangente\n0.12"]
+	nodo4 -> nodo3
+	nodo5 [label=5.55]
+	nodo6 [label=8.33]
+	nodo7 [label="suma\n14"]
+	nodo7 -> nodo5
+	nodo7 -> nodo6
+	nodo8 [label=1.3]
+	nodo9 [label=8.05]
+	nodo10 [label="resta\n-7"]
+	nodo10 -> nodo8
+	nodo10 -> nodo9
+	nodo11 [label="multiplicacion\n-94"]
+	nodo11 -> nodo7
+	nodo11 -> nodo10
+	nodo12 [label=7.4]
+	nodo13 [label=8.64]
+	nodo14 [label="multiplicacion\n64"]
+	nodo14 -> nodo12
+	nodo14 -> nodo13
+	nodo15 [label=7.92]
+	nodo16 [label=2.78]
+	nodo17 [label="suma\n11"]
+	nodo17 -> nodo15
+	nodo17 -> nodo16
+	nodo18 [label="raiz\n1"]
+	nodo18 -> nodo14
+	nodo18 -> nodo17
+	nodo19 [label="resta\n-95"]
+	nodo19 -> nodo11
+	nodo19 -> nodo18
+	nodo20 [label=5.26]
+	nodo21 [label=2.42]
+	nodo22 [label="multiplicacion\n13"]
+	nodo22 -> nodo20
+	nodo22 -> nodo21
+	nodo23 [label=4.62]
+	nodo24 [label=2.62]
+	nodo25 [label="division\n2"]
+	nodo25 -> nodo23
+	nodo25 -> nodo24
+	nodo26 [label="division\n7"]
+	nodo26 -> nodo22
+	nodo26 -> nodo25
+	nodo27 [label=8.29]
+	nodo28 [label=4.05]
+	nodo29 [label="suma\n12"]
+	nodo29 -> nodo27
+	nodo29 -> nodo28
+	nodo30 [label="seno\n-0.22"]
+	nodo30 -> nodo29
+	nodo31 [label="raiz\n0"]
+	nodo31 -> nodo26
+	nodo31 -> nodo30
+	nodo32 [label=5.1]
+	nodo33 [label=1.38]
+	nodo34 [label="division\n4"]
+	nodo34 -> nodo32
+	nodo34 -> nodo33
+	nodo35 [label=12.03]
+	nodo36 [label=6.21]
+	nodo37 [label="resta\n6"]
+	nodo37 -> nodo35
+	nodo37 -> nodo36
+	nodo38 [label="multiplicacion\n22"]
+	nodo38 -> nodo34
+	nodo38 -> nodo37
+	nodo39 [label=6.37]
+	nodo40 [label=1.18]
+	nodo41 [label="division\n5"]
+	nodo41 -> nodo39
+	nodo41 -> nodo40
+	nodo42 [label=9.77]
+	nodo43 [label=7.41]
+	nodo44 [label="division\n1"]
+	nodo44 -> nodo42
+	nodo44 -> nodo43
+	nodo45 [label="raiz\n4"]
+	nodo45 -> nodo41
+	nodo45 -> nodo44
+	nodo46 [label="raiz\n2"]
+	nodo46 -> nodo38
+	nodo46 -> nodo45
+	node [fillcolor=cyan fontcolor=black shape=square style=filled]
+	node [fillcolor=cyan fontcolor=black shape=square style=filled]
+}

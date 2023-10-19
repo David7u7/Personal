@@ -1,0 +1,48 @@
+{
+    "operaciones": [
+      {
+        "operacion": "resta",
+        "valor1": 6.5,
+        "valor2": 3.5
+      },
+      {
+        "operacion": "multiplicacion",
+        "valor1": 4,
+        "valor2": [
+          {
+            "operacion": "potencia",
+            "valor1": 2,
+            "valor2": [{ "operacion": "raiz", "valor1": 9, "valor2": 2 }]
+          }
+        ]
+      },
+      {
+        "operacion": "suma",
+        "valor1": [{ "operacion": "seno", "valor1": 90 }],
+        "valor2": 5.32
+      },
+      {
+        "operacion": "resta",
+        "valor1": [{ "operacion": "inverso", "valor1": 90 }],
+        "valor2": 5.32
+      },
+      {
+        "operacion": "resta",
+        "valor1": [{ "operacion": "mod", "valor1": 13, "valor2": 2 }],
+        "valor2": 2
+      }
+    ],
+    "configuraciones": [
+      {
+        "texto": "ejemplo de operaciones",
+        "fondo": "green",
+        "fuente": "red",
+        "forma": "circle"
+      }
+    ]
+  }
+
+
+
+
+
